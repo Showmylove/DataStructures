@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/showlinux/study
+CMAKE_SOURCE_DIR = /home/showlinux/study/DataStructures
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/showlinux/study/build
+CMAKE_BINARY_DIR = /home/showlinux/study/DataStructures/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/study.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/study.dir/flags.make
 
 CMakeFiles/study.dir/list.c.o: CMakeFiles/study.dir/flags.make
 CMakeFiles/study.dir/list.c.o: ../list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/showlinux/study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/study.dir/list.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/study.dir/list.c.o   -c /home/showlinux/study/list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/showlinux/study/DataStructures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/study.dir/list.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/study.dir/list.c.o   -c /home/showlinux/study/DataStructures/list.c
 
 CMakeFiles/study.dir/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study.dir/list.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/showlinux/study/list.c > CMakeFiles/study.dir/list.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/showlinux/study/DataStructures/list.c > CMakeFiles/study.dir/list.c.i
 
 CMakeFiles/study.dir/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study.dir/list.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/showlinux/study/list.c -o CMakeFiles/study.dir/list.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/showlinux/study/DataStructures/list.c -o CMakeFiles/study.dir/list.c.s
 
 CMakeFiles/study.dir/stack.c.o: CMakeFiles/study.dir/flags.make
 CMakeFiles/study.dir/stack.c.o: ../stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/showlinux/study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/study.dir/stack.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/study.dir/stack.c.o   -c /home/showlinux/study/stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/showlinux/study/DataStructures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/study.dir/stack.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/study.dir/stack.c.o   -c /home/showlinux/study/DataStructures/stack.c
 
 CMakeFiles/study.dir/stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study.dir/stack.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/showlinux/study/stack.c > CMakeFiles/study.dir/stack.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/showlinux/study/DataStructures/stack.c > CMakeFiles/study.dir/stack.c.i
 
 CMakeFiles/study.dir/stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study.dir/stack.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/showlinux/study/stack.c -o CMakeFiles/study.dir/stack.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/showlinux/study/DataStructures/stack.c -o CMakeFiles/study.dir/stack.c.s
 
 CMakeFiles/study.dir/study.c.o: CMakeFiles/study.dir/flags.make
 CMakeFiles/study.dir/study.c.o: ../study.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/showlinux/study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/study.dir/study.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/study.dir/study.c.o   -c /home/showlinux/study/study.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/showlinux/study/DataStructures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/study.dir/study.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/study.dir/study.c.o   -c /home/showlinux/study/DataStructures/study.c
 
 CMakeFiles/study.dir/study.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/study.dir/study.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/showlinux/study/study.c > CMakeFiles/study.dir/study.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/showlinux/study/DataStructures/study.c > CMakeFiles/study.dir/study.c.i
 
 CMakeFiles/study.dir/study.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/study.dir/study.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/showlinux/study/study.c -o CMakeFiles/study.dir/study.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/showlinux/study/DataStructures/study.c -o CMakeFiles/study.dir/study.c.s
 
 # Object files for target study
 study_OBJECTS = \
@@ -110,7 +110,7 @@ study: CMakeFiles/study.dir/stack.c.o
 study: CMakeFiles/study.dir/study.c.o
 study: CMakeFiles/study.dir/build.make
 study: CMakeFiles/study.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/showlinux/study/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable study"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/showlinux/study/DataStructures/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable study"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/study.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/study.dir/clean:
 .PHONY : CMakeFiles/study.dir/clean
 
 CMakeFiles/study.dir/depend:
-	cd /home/showlinux/study/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/showlinux/study /home/showlinux/study /home/showlinux/study/build /home/showlinux/study/build /home/showlinux/study/build/CMakeFiles/study.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/showlinux/study/DataStructures/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/showlinux/study/DataStructures /home/showlinux/study/DataStructures /home/showlinux/study/DataStructures/build /home/showlinux/study/DataStructures/build /home/showlinux/study/DataStructures/build/CMakeFiles/study.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/study.dir/depend
 

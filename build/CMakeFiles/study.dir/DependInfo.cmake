@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/showlinux/study/list.c" "/home/showlinux/study/build/CMakeFiles/study.dir/list.c.o"
-  "/home/showlinux/study/stack.c" "/home/showlinux/study/build/CMakeFiles/study.dir/stack.c.o"
-  "/home/showlinux/study/study.c" "/home/showlinux/study/build/CMakeFiles/study.dir/study.c.o"
+  "/home/showlinux/study/DataStructures/list.c" "/home/showlinux/study/DataStructures/build/CMakeFiles/study.dir/list.c.o"
+  "/home/showlinux/study/DataStructures/stack.c" "/home/showlinux/study/DataStructures/build/CMakeFiles/study.dir/stack.c.o"
+  "/home/showlinux/study/DataStructures/study.c" "/home/showlinux/study/DataStructures/build/CMakeFiles/study.dir/study.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

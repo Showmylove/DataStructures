@@ -6,23 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/showlinux/study/list.h
-type.h
-/home/showlinux/study/type.h
-
-/home/showlinux/study/stack.h
-type.h
-/home/showlinux/study/type.h
-
-/home/showlinux/study/study.c
+/home/showlinux/study/DataStructures/list.c
 stdlib.h
 -
 list.h
-/home/showlinux/study/list.h
-stack.h
-/home/showlinux/study/stack.h
+/home/showlinux/study/DataStructures/list.h
 
-/home/showlinux/study/type.h
+/home/showlinux/study/DataStructures/list.h
+type.h
+/home/showlinux/study/DataStructures/type.h
+
+/home/showlinux/study/DataStructures/stack.c
+stdlib.h
+-
+type.h
+/home/showlinux/study/DataStructures/type.h
+stack.h
+/home/showlinux/study/DataStructures/stack.h
+
+/home/showlinux/study/DataStructures/stack.h
+type.h
+/home/showlinux/study/DataStructures/type.h
+
+/home/showlinux/study/DataStructures/study.c
+stdlib.h
+-
+list.h
+/home/showlinux/study/DataStructures/list.h
+stack.h
+/home/showlinux/study/DataStructures/stack.h
+
+/home/showlinux/study/DataStructures/type.h
 stdio.h
 -
 
