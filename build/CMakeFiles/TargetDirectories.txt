@@ -1,0 +1,3 @@
+/home/showlinux/study/build/CMakeFiles/rebuild_cache.dir
+/home/showlinux/study/build/CMakeFiles/edit_cache.dir
+/home/showlinux/study/build/CMakeFiles/study.dir

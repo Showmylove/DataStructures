@@ -1,0 +1,1 @@
+/usr/bin/cc   -rdynamic CMakeFiles/study.dir/list.c.o CMakeFiles/study.dir/stack.c.o CMakeFiles/study.dir/study.c.o  -o study 

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/showlinux/study/list.h
+type.h
+/home/showlinux/study/type.h
+
+/home/showlinux/study/stack.h
+type.h
+/home/showlinux/study/type.h
+
+/home/showlinux/study/study.c
+stdlib.h
+-
+list.h
+/home/showlinux/study/list.h
+stack.h
+/home/showlinux/study/stack.h
+
+/home/showlinux/study/type.h
+stdio.h
+-
+
